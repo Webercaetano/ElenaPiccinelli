@@ -13,47 +13,50 @@
     <link rel="stylesheet" type="text/css" href="/css/bodycopy.css">
     <link rel="stylesheet" type="text/css" href="/css/bodycopy_2.css">
     <link rel="stylesheet" type="text/css" href="/css/reset.css">
-    
-
+    <script
+        src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    ></script>
 </head>
+
 <body>
     <header class="menubar">
         <a href="#" class="logo"><span class="bold"> Elena</span> Piccinelli</a>
-        <nav class="menu" >
-            <a href="#">Sobre</a>
-            <a href="#">Projetos</a>
-            <a href="#">Atividades</a>
-            <a href="#">Recursos</a>
-            <a href="#">Contatos</a>
-        </nav>
-
-        <svg class="menuhamburguer" viewBox="0 0 21 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M20.9999 0.750002L0 0.75M20.9999 8.62329L7.63657e-09 8.62329M20.9999 16.4968L7.63657e-09 16.4968" stroke="#181818" stroke-width="1.5"/>
+        
+            <svg class="menu" viewBox="0 0 21 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M20.9999 0.750002L0 0.75M20.9999 8.62329L7.63657e-09 8.62329M20.9999 16.4968L7.63657e-09 16.4968" stroke="#181818" stroke-width="1.5"/>
             </svg>
+
+        <nav>
             
+            <ul class="ul_mobile">
+
+                <svg class="close" viewBox="0 0 19 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <line x1="16.07" y1="14.5827" x2="2.02024" y2="1.06043" stroke="#181818" stroke-width="1.5" stroke-linecap="square"/>
+                    <line x1="0.75" y1="-0.75" x2="20.2499" y2="-0.75" transform="matrix(0.720504 -0.69345 -0.69345 -0.720504 2 14.5624)" stroke="#181818" stroke-width="1.5" stroke-linecap="square"/>
+                </svg>
+
+                <li><a class="a" href="#">Sobre</a></li>
+                <li><a class="a" href="#">Projetos</a></li>
+                <li><a class="a" href="#">Atividades</a></li>
+                <li><a class="a" href="#">Recursos</a></li>
+                <li><a class="a" href="#">Contatos</a></li>
+            </ul>
             
-            
+        </nav>
+    
     </header>
 
-    <svg class="close" width="18" height="13" viewBox="0 0 18 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path fill-rule="evenodd" clip-rule="evenodd" d="M17.3378 0.319882C17.5754 0.659186 17.493 1.12685 17.1537 1.36443L1.18025 12.5491C0.840943 12.7867 0.373283 12.7043 0.1357 12.365C-0.101883 12.0256 -0.0194217 11.558 0.319882 11.3204L16.2933 0.1357C16.6326 -0.101883 17.1003 -0.0194219 17.3378 0.319882Z" fill="black"/>
-        <path fill-rule="evenodd" clip-rule="evenodd" d="M0.13567 0.319882C-0.101913 0.659186 -0.019453 1.12685 0.319851 1.36443L16.2933 12.5491C16.6326 12.7867 17.1002 12.7043 17.3378 12.365C17.5754 12.0256 17.4929 11.558 17.1536 11.3204L1.18022 0.1357C0.840912 -0.101883 0.373253 -0.0194219 0.13567 0.319882Z" fill="black"/>
-    </svg>
-    
-    <section class="main-banner">
-     <div class="presentation">
-        <h1 class="headline"> <span class="aspas"> “</span>Sou psicologa social, especializada na promoção da inclusão e combate á discriminação, especialmente de mulheres e migrantes.<span class="aspas"> „</span></h1>
-        <button type="button" class="button_main">Sobre mim</button>
-        <svg class="arrow" width="24" height="44" viewBox="0 0 24 44" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M10.9393 43.0607C11.5251 43.6464 12.4749 43.6464 13.0607 43.0607L22.6066 33.5147C23.1924 32.9289 23.1924 31.9792 22.6066 31.3934C22.0208 30.8076 21.0711 30.8076 20.4853 31.3934L12 39.8787L3.51472 31.3934C2.92893 30.8076 1.97918 30.8076 1.3934 31.3934C0.80761 31.9792 0.80761 32.9289 1.3934 33.5147L10.9393 43.0607ZM10.5 0.5L10.5 42L13.5 42L13.5 0.5L10.5 0.5Z" fill="black"/>
-            </svg>
-            
-    </div>
-    <div class="content_mainimg">
-        
-    </div>
+    <main class="main-banner">
 
-    </section>
+        <div class="contents_presentation">
+            <h1 class="headline"> A inclusão de migrantes e a valorização das diferenças culturais são essenciais para a <span class="bold">construção de uma sociedade funcional.</span></h1>
+            <button type="button" class="button_main button_header">Sobre mim</button>  
+    
+            </div>
+
+        </div>
+
+    </main>
 
     <section class="projetos">
 
@@ -63,31 +66,43 @@
         </h3>
     </div>
 
-    <div class="content_image">
-        <img class="img_projetos" src="/Assets/IMG_Projeto.png">
+    <div class="container_2_projetos">
+
+        <div class="content_image">
+            <img class="img_projetos" src="/Assets/IMG_Projeto.png">
+        </div>
+    
+        <div class="content_projetos_direito">
+            <div class="content_projetos"> 
+                <h2 class="Subheadline">  
+                    Subtil, mas não inócua
+                </h2>
+                <p class="bodycopy">A discriminação pega várias formas: as vezes é mais explicita e flagrante, outras vezes se esconde atrás de frases e gestos aparentemente inofensivos. O meu projeto de doutoramento visa entender o impacto que estas diferentes formas de discriminação têm no processo de adaptação das mulheres migrantes em Portugal.</p>
+                <button type="button" class="button button_header">Saiba mais</button>
+            </div>
+        </div>
+
+        
     </div>
 
-    <div class="content_projetos"> 
-        <h2 class="Subheadline">  
-            Subtil, mas não inócua
-        </h2>
-        <p class="bodycopy">A discriminação pega várias formas: as vezes é mais explicita e flagrante, outras vezes se esconde atrás de frases e gestos aparentemente inofensivos. O meu projeto de doutoramento visa entender o impacto que estas diferentes formas de discriminação têm no processo de adaptação das mulheres migrantes em Portugal.</p>
-        <button type="button" class="button">Saiba mais</button>
+    <div class="container_3_projetos">
+
+        <div class="contentcta">
+            <p class="bodycopy_2">
+                Tem interesse no meu projeto e quer contribuir para o desenvolvimento e a divulgação da investigação? 
+            </p>
+    
+        </div>
+    
+        <div class="actionbox">
+            <p class="textactionbox">Colabore com o projeto</p>
+            <svg class="seta" width="36" height="24" viewBox="0 0 36 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M35.0607 13.0607C35.6464 12.4749 35.6464 11.5251 35.0607 10.9393L25.5147 1.3934C24.9289 0.807611 23.9792 0.807611 23.3934 1.3934C22.8076 1.97919 22.8076 2.92893 23.3934 3.51472L31.8787 12L23.3934 20.4853C22.8076 21.0711 22.8076 22.0208 23.3934 22.6066C23.9792 23.1924 24.9289 23.1924 25.5147 22.6066L35.0607 13.0607ZM0 13.5H34V10.5H0V13.5Z" />
+                </svg>
+        </div>
+
     </div>
 
-    <div class="contentcta">
-        <p class="bodycopy_2">
-            Tem interesse no meu projeto e quer contribuir para o desenvolvimento e a divulgação da investigação? 
-        </p>
-
-    </div>
-
-    <div class="actionbox">
-        <p class="textactionbox">Colabore com o projeto</p>
-        <svg width="36" height="24" viewBox="0 0 36 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M35.0607 13.0607C35.6464 12.4749 35.6464 11.5251 35.0607 10.9393L25.5147 1.3934C24.9289 0.807611 23.9792 0.807611 23.3934 1.3934C22.8076 1.97919 22.8076 2.92893 23.3934 3.51472L31.8787 12L23.3934 20.4853C22.8076 21.0711 22.8076 22.0208 23.3934 22.6066C23.9792 23.1924 24.9289 23.1924 25.5147 22.6066L35.0607 13.0607ZM0 13.5H34V10.5H0V13.5Z" fill="#BCE0D1"/>
-            </svg>
-    </div>
 
     </section>
 
@@ -97,40 +112,44 @@
         <h3 class="titulo_section">
             Atividades
         </h3>
-
     </div>
 
-    <section class="content_cards">
-        <ul class="atividadeheader">
-            <h2 class="headline_Destaques">Formação <br />intercultural</h2>
-        </ul>
-
-        <div class="card_atividade">
-            <p class="bodycopy">
-                A diversidade cultural é uma fonte inesgotável de riqueza. Entretanto, sem não for abordada da forma certa, pode também produzir conflitos e mal-entendidos. A formação intercultural tem o objetivo de fornecer as ferramentas fundamentais para poder beneficiar ao máximo do encontro entre culturas diferentes.
-            </p>
-
-            <button class="button_card">Conheça as atividades de formação</button>
-
+    <section class="content_cards_artividades">
+        
+        <div class="atividade_card_1">
+            <ul class="atividadeheader">
+                <h2 class="headline_Destaques">Formação<br />intercultural</h2>
+            </ul>
+    
+            <div class="card_atividade">
+                <p class="bodycopy copycard_atividades">
+                    A diversidade cultural é uma fonte inesgotável de riqueza. Entretanto, sem não for abordada da forma certa, pode também produzir conflitos e mal-entendidos. A formação intercultural tem o objetivo de fornecer as ferramentas fundamentais para poder beneficiar ao máximo do encontro entre culturas diferentes.
+                </p>
+    
+                <button class="button_card">Atividades de formação</button>
+    
+            </div>
+    
+        </div>
+    
+        <div class="atividade_card_2">
+            <ul class="atividadeheader_2">
+                <h2 class="headline_Destaques">Diversidade<br />e inclusão</h2>
+            </ul>
+    
+            <div class="card_atividade">
+                <p class="bodycopy copycard_atividades">
+                    Estudos mostram que um ambiente inclusivo, que valoriza as diferenças e adota medidas para prevenir o preconceito e a discriminação é beneficial ao nível individual e coletivo. Estas atividades de formação são pensadas para sensibilizar e incentivar uma reflexão ativa sobre estes temas, ao fim de criar um ambiente inclusivo para todas as pessoas.
+                </p>
+    
+                <button class="button_card">Atividades de formação</button>
+    
+            </div>
+    
         </div>
 
     </section>
 
-    <section class="content_cards_2">
-        <ul class="atividadeheader_2">
-            <h2 class="headline_Destaques">Diversidade <br />e inclusão</h2>
-        </ul>
-
-        <div class="card_atividade">
-            <p class="bodycopy">
-                Estudos mostram que um ambiente inclusivo, que valoriza as diferenças e adota medidas para prevenir o preconceito e a discriminação é beneficial ao nível individual e coletivo. Estas atividades de formação são pensadas para sensibilizar e incentivar uma reflexão ativa sobre estes temas, ao fim de criar um ambiente inclusivo para todas as pessoas.
-            </p>
-
-            <button class="button_card">Conheça as atividades de formação</button>
-
-        </div>
-
-    </section>
 
     </section>
 
@@ -141,39 +160,49 @@
         </h3>
     </div>
 
-    <div class="banner01">
-        <h2 class="h2_banner01">O que são<br />microagressões?</h2>
-        <p class="bodycopy_2">As microagressões são pequenos incidentes diários, verbais e não verbais, como piadas, insinuações ou pequenos insultos. São situações subtis e minúsculas, do dia-a-dia, que acontecem com pessoas próximas de nós, com aquelas que conhecemos de vista ou com aquelas que não conhecemos. Estas ocorrências podem vir de pessoas muito bem-intencionadas, mas produzem em nós sentimentos de desconforto, vergonha e até humilhação.  </p>
-        <button class="button">Saiba mais</button>
-    </div>
-
-    <div class="banner02">
-        <h2 class="h2_banner01 ctamodificador">Sofreu<br />discriminação?</h2>
-        <p class="bodycopy_2 copyctamodificador">Não precisa ficar em silêncio. Há várias coisas que pode fazer. Entenda como lidar com diferentes situações de discriminação e saiba onde encontrar apoio psicológico. </p>
-        <div class="cta_banner02">
-            <p class="texto_cta">Descubra o que fazer</p>
-            <svg width="36" height="24" viewBox="0 0 36 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M35.0607 13.0607C35.6464 12.4749 35.6464 11.5251 35.0607 10.9393L25.5147 1.3934C24.9289 0.807612 23.9792 0.807612 23.3934 1.3934C22.8076 1.97918 22.8076 2.92893 23.3934 3.51472L31.8787 12L23.3934 20.4853C22.8076 21.0711 22.8076 22.0208 23.3934 22.6066C23.9792 23.1924 24.9289 23.1924 25.5147 22.6066L35.0607 13.0607ZM0 13.5H34V10.5H0V13.5Z" fill="#BCE0D1"/>
-            </svg>
+    <div class="recursos_bloco1">
+        
+        <div class="banner01">
+            <h2 class="h2_banner01">O que são<br />microagressões?</h2>
+            <p class="bodycopy_2">As microagressões são pequenos incidentes diários, verbais e não verbais, como piadas, insinuações ou pequenos insultos. São situações subtis e minúsculas, do dia-a-dia, que acontecem com pessoas próximas de nós, com aquelas que conhecemos de vista ou com aquelas que não conhecemos. Estas ocorrências podem vir de pessoas muito bem-intencionadas, mas produzem em nós sentimentos de desconforto, vergonha e até humilhação.  </p>
+            <button class="button button_recursos">Saiba mais</button>
         </div>
-    </div>
-
-
-    <div class="banner03">
-        <div class="texto_banner03">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam quis pellentesque nunc, sit amet tempor ipsum. </p>
+    
+        <div class="banner02">
+            <h2 class="h2_banner01 ctamodificador">Sofreu<br />discriminação?</h2>
+            <p class="bodycopy_2 copyctamodificador">Não precisa ficar em silêncio. Há várias coisas que pode fazer. Entenda como lidar com diferentes situações de discriminação e saiba onde encontrar apoio psicológico. </p>
+            <div class="cta_banner02">
+                <p class="texto_cta">Descubra o que fazer</p>
+                <svg width="36" height="24" viewBox="0 0 36 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M35.0607 13.0607C35.6464 12.4749 35.6464 11.5251 35.0607 10.9393L25.5147 1.3934C24.9289 0.807612 23.9792 0.807612 23.3934 1.3934C22.8076 1.97918 22.8076 2.92893 23.3934 3.51472L31.8787 12L23.3934 20.4853C22.8076 21.0711 22.8076 22.0208 23.3934 22.6066C23.9792 23.1924 24.9289 23.1924 25.5147 22.6066L35.0607 13.0607ZM0 13.5H34V10.5H0V13.5Z" fill="#ffffff"/>
+                </svg>
+            </div>
         </div>
+
     </div>
 
-    <div class="cta_banner03">
-        <p class="text_cta_publicacoes">Minhas publicações académicas</p>
+    <div class="recursos_bloco2">
+        
+        <div class="banner03">
+            <div class="texto_banner03">
+                <p>Muitas vezes, os projetos 
+                    de investigação resultam em trabalhos ciêntificos e publicações acadêmicas. </p>
+            </div>
+        </div>
+    
+        <div class="cta_banner03">
+            <p class="text_cta_publicacoes">Minhas publicações académicas</p>
+        </div>
+        
     </div>
+
     </section>
 
     <div class="footer">
   
     </div>
 
+    <script src="js/script.js" ></script>
 </body>
 
 </html>

@@ -1,0 +1,17 @@
+.button_main {
+  font-family: poppins;
+  font-size: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 7px 24px;
+  color: #E5D7CA;
+  background: #2C2D2E;
+  border: none;
+  cursor: pointer;
+}
+
+.button_main:hover {
+  background:#E5D7CA;
+  color: #2C2D2E;
+}
